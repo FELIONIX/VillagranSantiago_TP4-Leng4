@@ -1,0 +1,58 @@
+const CDN = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons';
+
+export const servicios = [
+  {
+    id: 1,
+    nombre: 'React',
+    categoria: 'Frontend',
+    nivel: 90,
+    descripcion: 'Construcción de interfaces reactivas y componentes reutilizables.',
+    imagen: `${CDN}/react/react-original.svg`,
+    tags: ['Hooks', 'SPA', 'Vite'],
+  },
+  {
+    id: 2,
+    nombre: 'JavaScript',
+    categoria: 'Lenguaje',
+    nivel: 88,
+    descripcion: 'Lógica del lado del cliente, manejo asíncrono y consumo de APIs.',
+    imagen: `${CDN}/javascript/javascript-original.svg`,
+    tags: ['ES6+', 'Fetch', 'DOM'],
+  },
+  {
+    id: 3,
+    nombre: 'Node.js',
+    categoria: 'Backend',
+    nivel: 80,
+    descripcion: 'Desarrollo de servidores y APIs REST con un entorno de ejecución basado en JavaScript.',
+    imagen: `${CDN}/nodejs/nodejs-original.svg`,
+    tags: ['Express', 'REST', 'NPM'],
+  },
+  {
+    id: 4,
+    nombre: 'PostgreSQL',
+    categoria: 'Bases de datos',
+    nivel: 75,
+    descripcion: 'Modelado relacional, consultas SQL y diseño de esquemas normalizados.',
+    imagen: `${CDN}/postgresql/postgresql-original.svg`,
+    tags: ['SQL', 'Índices', 'Modelado'],
+  },
+  {
+    id: 5,
+    nombre: 'Docker',
+    categoria: 'DevOps',
+    nivel: 70,
+    descripcion: 'Contenerización de aplicaciones para entornos reproducibles.',
+    imagen: `${CDN}/docker/docker-original.svg`,
+    tags: ['Contenedores', 'Compose', 'Imágenes'],
+  },
+  {
+    id: 6,
+    nombre: 'Git',
+    categoria: 'Control de versiones',
+    nivel: 85,
+    descripcion: 'Gestión de ramas, historial de cambios y trabajo colaborativo.',
+    imagen: `${CDN}/git/git-original.svg`,
+    tags: ['GitHub', 'Branching', 'Merge'],
+  },
+];
